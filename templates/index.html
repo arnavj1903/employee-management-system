@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+{% block title %} Home {% endblock title %}
+{% block body %}
+
+        <button type="button" class="btn btn-primary btn-lg">Add Employee</button>
+        <button type="button" class="btn btn-secondary btn-lg">Update Employee</button>
+
+        <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+{% endblock body %}
